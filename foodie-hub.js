@@ -159,3 +159,4 @@ class Pasta extends Fooditem {
 }
 let a = new Pasta();
 a.taste();
+
