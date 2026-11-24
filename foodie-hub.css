@@ -1,0 +1,69 @@
+/* General Page Styling */
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, sans-serif;
+    background-color: hsl(34, 5%, 71%);
+    margin: 0;
+    padding: 20px;
+    line-height: 1.6;
+}
+h1{
+    color:rgb(116, 5, 79);
+    text-align: center;
+}
+h2{
+    color: #160466;
+    margin-top: 20px;
+}
+h3{
+    color: #035013;
+    margin-top: 15px;
+}
+th,td{
+    padding:50px;
+    font-size:14px;
+    background-color:rgb(137, 155, 57);
+    width:80%;
+    text-align:center;
+    border: 1px solid #310303;
+
+}
+form{
+    text-align:center;
+    padding:15px;
+}
+button:hover{
+    color:hsl(180, 76%, 22%);
+    width:50%;
+    margin:auto;
+    background-color:hsl(135, 56%, 52%);
+    line-height:3;
+}
+div{
+    background-color:rgb(161, 110, 74);
+    text-align:center;
+    padding:30px;
+    margin:20px;
+    color:hsl(115, 88%, 13%)
+}
+section{
+    background-color:rgb(131, 107, 141);
+    text-align:center;
+    padding:10px;
+    margin:1px;
+}
+.menu-row{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    gap:20px;
+    flex-direction:row;
+    padding:70px;
+}
+.container{
+    padding:15px;
+    margin:5px;
+    background-color:cadetblue;
+}
